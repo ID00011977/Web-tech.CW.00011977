@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+    div.container
+        h1 All works
+
+        each work in works  
+            div.note-wrapper
+                a.note(href="/works/detail")= work   
+                a.delete(href="/works/detail") delete 

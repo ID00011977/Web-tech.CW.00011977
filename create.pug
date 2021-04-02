@@ -1,0 +1,16 @@
+extends layout.pug 
+
+block content 
+    div.container Create the list of things to do
+        h1 Create list 
+
+        form.form(action="/create" method='POST') 
+            label Title 
+            input.input(type="text" name='title')
+
+            label Description   
+            textarea.input(type='text' name="description")
+
+            button.btn Create list to do
+
+    
