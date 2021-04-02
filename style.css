@@ -1,0 +1,85 @@
+:root{
+    font-size: 18px;
+color: #444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: tomato;
+}
+
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px;
+}
+
+.nav{
+   display: inline-block;
+   padding: 5px 10px;
+}
+
+
+/* // Homepage style */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main_message{
+    padding: 100px 0 30px 0;
+   font-size: 2rem;
+   max-width: 60%;
+
+}
+
+.create {
+display: inline-block;
+padding: 10px 20px;
+background: tomato;
+color: #fff;
+}
+
+/* Create page  */
+
+.form {
+max-width: 60%;
+
+}
+
+.input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    
+}
+
+.btn{
+    display: block;
+    background: tomato;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    padding: 10px 20px;
+    font-family: inherit;
+}
