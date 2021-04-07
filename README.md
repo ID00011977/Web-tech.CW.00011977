@@ -1,4 +1,4 @@
-# This web application allows users to create, delete news.
+# This web application allows users to create, delete posts.
 
 ### To run this web application locally you must follow the steps indicated below:
 
