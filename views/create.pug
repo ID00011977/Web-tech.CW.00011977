@@ -1,0 +1,27 @@
+extends layout.pug 
+
+block content 
+    .container   
+
+        if error 
+            p.error Some error occured! Try again!
+
+        if success
+            p.success News was successfully created!!! 
+            
+        
+
+        form.form(action="/create" method='Post')
+            label  Title 
+            input.input(type="text" name='title')
+            label  Name
+            input.input(type="text" name='name')
+
+            label  Description 
+            textarea.input(name="description", type="text") 
+
+            button.btncreate  Create News
+
+
+
+    

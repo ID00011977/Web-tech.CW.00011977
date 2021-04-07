@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+    div.container
+        h1 All posts
+
+        each post in posts 
+            div.post-wrapper
+                a.note(href=`/posts/${ post.id }`) #{ post.title }   
+                a.delete(href=`/${ post.id }/delete`) Delete       
+                    

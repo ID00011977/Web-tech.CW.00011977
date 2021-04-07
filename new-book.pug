@@ -1,0 +1,12 @@
+	hr
+	h1 Create New Book
+	hr
+	form(action='http://localhost:3000/book' method='POST')
+		.form-group
+			label(for='ISBN') ISBN
+			input.form-control(name='isbn')
+		.form-group
+			label(for='Title') Title
+			input.form-control(name='title')
+		// Other fields
+		button.btn.btn-primary(type='submit') Submit
