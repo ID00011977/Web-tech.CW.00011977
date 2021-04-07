@@ -29,4 +29,4 @@ localhost:8000/api/v1/posts
 [link to github repo](https://github.com/ID00011977/Web-tech.CW.00011977.git)
 
 ### Link to the application on glitch
-[]()
+[Hobby.Blog](https://flash-hungry-globe.glitch.me)
